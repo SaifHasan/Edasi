@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+li,
+li:hover {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.header-section {}
+
+.inner-header {
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.inner-header img {
+    width: 22%;
+}
+
+
+/* ********************************************************** */
+
+.banner-section {
+    background: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inner-banner {
+    margin: 130px 0px;
+    padding: 70px 51px;
+    text-align: center;
+    background: #fefefea3;
+    /* width: 602px; */
+    /* height: 370px; */
+}
+
+.inner-banner h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.inner-banner p {
+    font-size: 19px;
+}
+
+.inner-banner span {
+    font-size: 33px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.inner-banner a {
+    background: black;
+    padding: 10px 15px;
+    /* display: inblock; */
+    /* margin-top: 32px; */
+    color: white;
+}
+
+.inner-banner a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(2, 3);
+}
+
+
+/* ********************************************************** */
+
+.paragraph {}
+
+.inner-paragraph {
+    padding: 20px 0px;
+    margin: 61px 0px;
+}
+
+.inner-paragraph span {}
+
+.inner-paragraph p {
+    text-align: center;
+    font-size: 18px;
+    /* margin: 0px 20px; */
+    padding: 30px 0px;
+}
+
+.inner-paragraph span {
+    background: black;
+    width: 102%;
+    display: block;
+    padding: 1px;
+}
+
+.inner-paragraph img {
+    margin-left: 24%;
+    margin-top: 10px;
+}
+
+
+/* ********************************************************* */
+
+.card-section {}
+
+.inner-card {}
+
+.inner-card img {
+    width: 100%;
+}
+
+.inner-card h6 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+    letter-spacing: 3px;
+}
+
+.inner-card span {
+    display: block;
+    width: 23%;
+    background: black;
+    padding: 1px;
+    /* text-align: center; */
+    margin-left: 96px;
+}
+
+.inner-card p {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 18px;
+    /* font-weight: 600; */
+}
+
+
+/* ************************************************* */
+
+.feature-section {
+    padding: 77px 0px 0px 0px;
+}
+
+.inner-feature {}
+
+.inner-feature img {
+    width: 100%;
+}
+
+.inner-faq {}
+
+.inner-faq h1 {
+    font-size: 59px;
+    font-weight: 700;
+}
+
+.inner-faq .fa {
+    display: block;
+    line-height: 3.5;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fa:before {
+    margin-right: 11px;
+}
+
+
+/* ********************************************** */
+
+.paragraph2 {}
+
+.inner-paragraph2 {
+    padding: 20px 0px;
+    margin: 61px 0px;
+}
+
+.inner-paragraph2 span {}
+
+.inner-paragraph2 p {
+    text-align: center;
+    font-size: 18px;
+    /* margin: 0px 20px; */
+    padding: 30px 0px;
+}
+
+.inner-paragraph2 span {
+    background: black;
+    width: 102%;
+    display: block;
+    padding: 1px;
+}
+
+.inner-paragraph2 img {
+    margin-left: 24%;
+    margin-top: 10px;
+}
+
+
+/* ********************************* */
+
+.footer-section {}
+
+.inner-footer {
+    text-align: center;
+    padding-top: 86px;
+}
+
+.inner-footer span {
+    background: black;
+    width: 100%;
+    display: block;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.inner-footer h2 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.inner-footer p {
+    font-weight: 600;
+    font: 600 20px;
+    font-size: 20px;
+}
+
+.inner-footer a {
+    background: black;
+    padding: 10px 15px;
+    /* display: inblock; */
+    /* margin-top: 32px; */
+    color: white;
+}
+
+.inner-footer a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(2, 3);
+}
+
+.inner-footer h6 {
+    margin: 17px;
+    font-size: 13px;
+    font-weight: 700;
+}
